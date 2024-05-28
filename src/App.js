@@ -1,11 +1,12 @@
 
 import './App.css';
+import ImageGenerator from './Components/ImageGenerator/ImageGenerator';
 
 function App() {
   return (
-    <div>
-      <h2>AI Image Generate</h2>
-     
+    <div className='container-fluid'>
+      <h2 className="text-center">AI Image Generate</h2>
+       <ImageGenerator />
     </div>
   );
 }
